@@ -106,12 +106,13 @@ def test_canonical_manifest_bytes_emits_non_ascii_literally_not_as_uxxxx() -> No
 
 
 def test_key_id_of_matches_the_documented_library_key_id() -> None:
-    # The real, embedded LIBRARY_PUBLIC_KEY from termograph.profiles.bundle.
-    # signing in the product repository -- pinned as a literal constant here
+    # The real, embedded LIBRARY_PUBLIC_KEY from uravi.profiles.bundle.
+    # signing in the product repository (the URAVI library key since Uravi
+    # 1.0.0) -- pinned as a literal constant here
     # too (not imported; this repository must not depend on the product
     # package) so a derivation disagreement is caught on THIS side as well.
-    raw = bytes.fromhex("532c26ce50c7e5353e49fbef7d6ed521ae341ab8dec7eaabf6dfc404bb16706f")
-    assert sign.key_id_of(raw) == "80ef9190a7ccf66f"
+    raw = bytes.fromhex("e012d1eb2ef1efb7dd1d3a69f580959c1ca3a27ff2a5dcbcacbadad55b2e0aaf")
+    assert sign.key_id_of(raw) == "843c8a32f17c6c61"
 
 
 def test_key_id_of_is_first_16_hex_chars_of_sha256() -> None:

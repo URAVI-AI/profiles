@@ -30,7 +30,7 @@ jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
 
       - name: index.json is pipeline-owned
         if: github.event_name == 'pull_request'
@@ -81,7 +81,7 @@ jobs:
       # pytest/cryptography so the suite can validate index.json and any
       # future bundle manifest against index.schema.json directly, not only
       # via the hand-rolled regex checks above.
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
         with:
           python-version: "3.12"
 
@@ -96,7 +96,7 @@ jobs:
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
 
       - name: Check for a signing key
         id: key_check
@@ -111,7 +111,7 @@ jobs:
             echo "present=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
         if: steps.key_check.outputs.present == 'true'
         with:
           python-version: "3.12"
@@ -135,7 +135,7 @@ jobs:
           # Rotating the key is a product release (spec R12), so this value and
           # the product's must change together. If this step fails, do not edit
           # this line to match the secret -- work out which of the two is wrong.
-          EXPECTED_KEY_ID: "80ef9190a7ccf66f"
+          EXPECTED_KEY_ID: "843c8a32f17c6c61"
         run: |
           python3 - <<'PY'
           import os, sys
