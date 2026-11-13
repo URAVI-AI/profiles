@@ -1,26 +1,26 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-07T01:45:33Z",
-  "signing_key_id": "80ef9190a7ccf66f",
+  "generated_at": "2026-11-13T02:50:57Z",
+  "signing_key_id": "843c8a32f17c6c61",
   "bundles": [
     {
       "id": "elastic",
       "name": "Elasticsearch Cluster / Index Tree",
-      "provider": "Cognisn",
+      "provider": "URAVI",
       "version": "1.0",
       "platforms": [
         "Elasticsearch Cluster / Index Tree"
       ],
       "slots": [],
       "file": "bundles/elastic.tgprofile",
-      "sha256": "a502a0378c70b94ca174c22fc9e38916e1b711eaa21a2207f6520a624dee0d35",
+      "sha256": "39d69ee95fc7239a19d63656f081a58d6e394423bf2cb12eb23f1ac7929712e7",
       "signed": true,
-      "published_at": "2026-11-07T01:45:33Z"
+      "published_at": "2026-11-13T02:50:57Z"
     },
     {
       "id": "intella",
       "name": "Intella Case",
-      "provider": "Cognisn",
+      "provider": "URAVI",
       "version": "1.1",
       "platforms": [
         "Intella Case"
@@ -30,14 +30,14 @@
         "pairing"
       ],
       "file": "bundles/intella.tgprofile",
-      "sha256": "bbf4470925e9a4205a316699d9b7e0b92562199bc77be9cddb7b272c7a02efa7",
+      "sha256": "3c2cf5ad07fef43514cdde65630d537a0cace0766a47a30cc689b5b4c2b12dde",
       "signed": true,
-      "published_at": "2026-11-07T01:45:33Z"
+      "published_at": "2026-11-13T02:50:57Z"
     },
     {
       "id": "magnet-axiom",
       "name": "Magnet AXIOM",
-      "provider": "Cognisn",
+      "provider": "URAVI",
       "version": "1.0",
       "platforms": [
         "Magnet AXIOM cases, schema 5.21, searched in place"
@@ -48,14 +48,14 @@
         "pairing"
       ],
       "file": "bundles/magnet-axiom.tgprofile",
-      "sha256": "cf29f4ebf66dea66695edde76130e91108f3d7ff8bb4f0fb5d0155475cccb323",
+      "sha256": "0e546d84b89990b148a4d096858a98fd2f750417bb44a73a69a403b1aeea5e06",
       "signed": true,
-      "published_at": "2026-11-07T01:45:33Z"
+      "published_at": "2026-11-13T02:50:57Z"
     },
     {
       "id": "nuix",
       "name": "Nuix Workstation / Workbench Case",
-      "provider": "Cognisn",
+      "provider": "URAVI",
       "version": "1.2",
       "platforms": [
         "Nuix Workstation / Workbench Case"
@@ -64,34 +64,33 @@
         "pairing"
       ],
       "file": "bundles/nuix.tgprofile",
-      "sha256": "52a8371dc1cdf74be3e23b84d91b968df165565b2bf695a482116fea41d982b0",
+      "sha256": "31d6e1ea37ea3519e0cedab1777a7fe669a77c1077fa0694deecb3b0598d06f7",
       "signed": true,
-      "published_at": "2026-11-07T01:45:33Z"
+      "published_at": "2026-11-13T02:50:57Z"
     },
     {
       "id": "nuix-7.6-case-family",
       "name": "Nuix Workstation 7.6 case family (email)",
-      "provider": "Cognisn",
+      "provider": "URAVI",
       "version": "1.1",
       "platforms": [
         "Nuix Workstation 7.6 cases carrying email communication metadata"
       ],
       "slots": [
-        "column_names",
         "column_profile",
         "inference_chain",
         "pairing",
         "script"
       ],
       "file": "bundles/nuix-7.6-case-family.tgprofile",
-      "sha256": "d6146449a23a1582ef5e5fed2cf37ed48341179446f51b8b1383193ef5094803",
+      "sha256": "b55a8f92f449a523d62946b423eeec74d5e49999dade822808d865c9fabc8257",
       "signed": true,
-      "published_at": "2026-11-07T01:45:33Z"
+      "published_at": "2026-11-13T02:50:57Z"
     },
     {
       "id": "nuix-neo",
       "name": "Nuix Workstation 100.x (Neo)",
-      "provider": "Cognisn",
+      "provider": "URAVI",
       "version": "1.0",
       "platforms": [
         "Nuix 100.x (Neo) cases"
@@ -102,14 +101,14 @@
         "skill"
       ],
       "file": "bundles/nuix-neo.tgprofile",
-      "sha256": "ed20e37763a0d71abfee4111b2a4cd7e26965f0d134cd8eab0365f97bff3d947",
+      "sha256": "53f4ca9b281711891b8a944262a20653d3268882c5b4334629b75064bd9ec6fa",
       "signed": true,
-      "published_at": "2026-11-07T01:45:33Z"
+      "published_at": "2026-11-13T02:50:57Z"
     },
     {
       "id": "nuix-pre7",
       "name": "Nuix Workstation / Workbench Case (4.x-6.x)",
-      "provider": "Cognisn",
+      "provider": "URAVI",
       "version": "1.0",
       "platforms": [
         "Nuix 4.0-6.2 cases"
@@ -118,14 +117,14 @@
         "pairing"
       ],
       "file": "bundles/nuix-pre7.tgprofile",
-      "sha256": "545200710ef1baca8419afb8bbe1c4e7ba2185ca6823c782a6f3d3145aa9b268",
+      "sha256": "3e5d7dab3f8340f8ba98698471bf40b881834d74775e4794215a5eacd8a176bd",
       "signed": true,
-      "published_at": "2026-11-07T01:45:33Z"
+      "published_at": "2026-11-13T02:50:57Z"
     },
     {
       "id": "paired-derby",
       "name": "Paired Lucene + Derby",
-      "provider": "Cognisn",
+      "provider": "URAVI",
       "version": "1.0",
       "platforms": [
         "Paired Lucene + Derby"
@@ -134,14 +133,14 @@
         "pairing"
       ],
       "file": "bundles/paired-derby.tgprofile",
-      "sha256": "a273532595157fd2d2617f9fcc24ccfff82507fd575aac97bab18fc51c2521a7",
+      "sha256": "0f69251df13317c96e3064a0af4243ac26d328cdc6a82470fc0f0a9ad57ebbd5",
       "signed": true,
-      "published_at": "2026-11-07T01:45:33Z"
+      "published_at": "2026-11-13T02:50:57Z"
     },
     {
       "id": "relativity-arm",
       "name": "Relativity ARM",
-      "provider": "Cognisn",
+      "provider": "URAVI",
       "version": "1.1",
       "platforms": [
         "Relativity ARM exports; EDDS schema"
@@ -153,9 +152,9 @@
         "preparation"
       ],
       "file": "bundles/relativity-arm.tgprofile",
-      "sha256": "463c77019a655cfbb8c6f095cbb999f5795f940413b8b64a7f2306aaecd599ce",
+      "sha256": "3bd32be43d17d9e1e2f63f4981b36ca8bc20cc274d212d2b58a3012be6b70cdd",
       "signed": true,
-      "published_at": "2026-11-07T01:45:33Z"
+      "published_at": "2026-11-13T02:50:57Z"
     }
   ]
 }
